@@ -33,6 +33,11 @@ public class Projectile : MonoBehaviour
         
     }
 
+    public virtual void OnCollisionOther(Collision2D collision)
+    {
+        
+    }
+
     public virtual void Explode()
     {
         
